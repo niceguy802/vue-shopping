@@ -49,4 +49,9 @@ export default {
   width: 24px;
   height: 24px;
 }
+.tab-bar-item {
+  text-align: center;
+  height: 49px;
+  font-size: 12px;
+}
 </style>

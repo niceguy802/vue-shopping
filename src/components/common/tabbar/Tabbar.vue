@@ -64,18 +64,13 @@
 </script>
 <style>
 #tabbar {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-around;
   background: #f6f6f6;
   box-shadow: 0 -1px 1px rgba(100, 100, 100, 0.1);
-}
-.tab-bar-item {
-  text-align: center;
-  height: 49px;
-  font-size: 12px;
 }
 
 .tab-bar-item img {

@@ -3,13 +3,13 @@
 /*  选择到根标签html*/
 :root {
   /*  --color-text是定义变量*/
-  --colo-text: #666666;
+  --color-text: #666666;
   /*  使用方法*/
-  color: var(--colo-text);
+  color: var(--color-text);
 
   /*  */
   --hight-light: #ff5777;
-  --hight-tint: #ff8198; /*整体背景颜色，导航等位置*/
+  --color-tint: #ff8198; /*整体背景颜色，导航等位置*/
   --color-background: #ffffff;
   --font-size: 14px;
   --line-hight: 1.5
@@ -30,11 +30,12 @@ body {
   /*苹果Safari引擎，tap点击，hightlight高亮*/
   -webkit-tap-highlight-color: transparent;
   background: var(--color-background);
+  font-size: var(--font-size);
   width: 100vw;
 }
 
 a {
-  color: var(--colo-text);
+  color: var(--color-text);
   text-decoration: none;
 }
 
